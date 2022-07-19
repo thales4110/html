@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)file:///F:/CURSOS/UDEMY/HTML/Proejto_2/index.html -->
+<html lang="pt-BR"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="file:///F:/CURSOS/UDEMY/HTML/Projeto_2/css/style.css">
+</head>
+<body>
+    <div class="Container">
+        <div class="header">
+            <h3>Página de Cadastro</h3>
+            
+        </div>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Cadastro</p>
+            </div>
+            <div class="form-body">
+                <h1 class="form-title">Venda fácil seu veículo!</h1>
+                <p>Descreva as características do seu veículo e marque todos os opcionais que ele possui</p>
+                
+                <form>
+                    <div class="box-input">
+                        <label for="title">Título do Anúncio: <span class="required-field">*</span></label>
+                        <input type="text" name="title" id="title" class="block" placeholder="nome do veículo" minlength="1" maxlength="30" required="">
+                        
+                    </div>
+                    <div class="box-input">
+                        <label for="price">Preço do veículo: <span class="required-field">*</span></label>
+                        <input type="number" name="price" id="price" class="block" required="">
+                    </div>
+                    <div class="box-input">
+                        <label for="price">Descrição: <span class="required-field">*</span></label>
+                        <textarea name="description" id="description" cols="30" rows="10" class="block" required="" placeholder="Descreva seu veículo">                        </textarea>
+                    </div>
+                    <div class="box-input">
+                        <label for="">Único dono? <span class="required-file">*</span></label>
+                        <select name="unique-order" id="unique-order" required="">
+                            <option value="">Selecione...</option>
+                            <option value="1">Sim</option>
+                            <option value="2">Não</option>
+
+                        </select>
+                        <hr class="hr">
+                    <div>
+                        <input type="submit" class="btn-submit" value="Cadastrar">
+                    </div>    
+                    </div>
+                </form>
+            </div>    
+        </div>
+        
+    </div>
+    <p class="pp">Desenvolvido por Thales Lourençon</p>
+
+
+
+</body></html>
